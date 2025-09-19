@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compassion Connect | Join-Us </title>
+    <meta name="description" content="Compassion Connect - Connecting communities with compassion and support.">
+</head>
+<body>
+    <header>
+        <img src="" alt="Logo">
+        <img src="" alt="Menu Icon">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="join.html">Join Us</a>
+                <ul>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                </ul></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="join-us">
+            <h1>Join Compassion Connect</h1>
+            <p>Become a part of our mission to connect hearts and change lives. Whether you want to volunteer, donate, or participate in our events, there are many ways to get involved.</p>
+        </section>
+        <section id="volunteer">
+            <h2>Volunteer Opportunities</h2>
+            <ul>
+                <li>Community Outreach</li>
+                <li>Event Planning</li>
+                <li>Support Services</li>
+                <li>Fundraising</li>
+                <li>Administrative Support</li>
+            </ul>
+            <h2>How to Join</h2>
+            <p>To join Compassion Connect, please fill out our online application form or contact us directly at <a href="mailto:info@compassionconnect.org">info@compassionconnect.org</a>.</p>
+            <form action="submit_application.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="interest">Area of Interest:</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Select...</option>
+                    <option value="community-outreach">Community Outreach</option>
+                    <option value="event-planning">Event Planning</option>
+                    <option value="support-services">Support Services</option>
+                    <option value="fundraising">Fundraising</option>
+                    <option value="administrative-support">Administrative Support</option>
+                </select>
+
+                <label for="message">Tell us why you'd like to join:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+        <section id="donate">
+            <h2>Make a Donation</h2>
+            <p>Your generous donations help us continue our mission to support communities in need. Every contribution, big or small, makes a difference.</p>
+            <form action="process_donation.php" method="post">
+                <label for="donor-name">Full Name:</label>
+                <input type="text" id="donor-name" name="donor-name" required>
+
+                <label for="donor-email">Email Address:</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </section>
+        <section id="membership">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li>Exclusive Updates and Newsletters</li>
+                <li>Invitations to Special Events</li>
+                <li>Opportunities to Network with Like-Minded Individuals</li>
+                <li>Discounts on Workshops and Seminars</li>
+                <li>A Voice in Our Community Initiatives</li>
+            </ul>
+            <p>Join our membership program to enjoy these benefits and support our cause. For more information, please contact us at <a href="mailto:info@compassionconnect.org.">info@compassionconnect.org</a>.</p>
+    </main>    
+    <footer>
+        <p>&copy; 2025 Compassion Connect. All rights reserved.</p>
+    </footer>
+</body>
+</html>

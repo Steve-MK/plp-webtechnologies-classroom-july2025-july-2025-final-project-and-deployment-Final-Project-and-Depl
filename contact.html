@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compassion Connect | Home </title>
+    <title>Compassion Connect | Contact-Us </title>
     <meta name="description" content="Compassion Connect - Connecting communities with compassion and support.">
 </head>
 <body>
@@ -26,24 +26,27 @@
         </nav>
     </header>
     <main>
-        <section id = greetings>
-            <p><b>Welcome</b> to Compassion Connect </p>
-        </section>
-        <section id="photos">
-            <h2>Our Mission in Action</h2>
-            <img src="" alt="Community Event">
-            <img src="" alt="Volunteers Helping">
-            <img src="" alt="Support Group">
-            <img src="" alt="Feeding the Homeless">
-            <img src="" alt="Charity Drive">
-            <img src="" alt="Street Outreach">
-        </section>
-        <section id="partners">
-            <h2>Our Partners</h2>
-            <img src="" alt="Partner 1 Logo">
-            <img src="" alt="Partner 2 Logo">
-            <img src="" alt="Partner 3 Logo">
-            <img src="" alt="Partner 4 Logo">
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>If you have any questions, need assistance, or want to get involved, please reach out to us. We would love to hear from you!</p>
+            <h2>Contact Information</h2>
+            <p><b>Email:</b> <a href="mailto:info@compassionconnect.org">info@compassionconnect.org</a></p>
+            <p><b>Phone:</b> (123) 456-7890</p>
+            <p><b>Address:</b> 123 Compassion St, Kindness City, CA 12345</p>
+            <h2>Contact Form</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
         </section>
     </main>
     <footer>
